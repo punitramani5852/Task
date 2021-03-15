@@ -17,11 +17,11 @@ package com.knoldus;
 
 public class BrowserTest {
     public static void main(String[] args)throws IOException {
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\punit\\Selenium\\Task\\drivers\\gechodriver\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","drivers/gechodriver/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
 
         driver.get("https://sophi.10uplabs.dev");
-        Runtime.getRuntime().exec("C:\\Users\\punit\\Selenium\\Task\\AutoIT\\SeleniumBug.exe");
+        Runtime.getRuntime().exec("AutoIT/SeleniumBug.exe");
 
 
 
@@ -29,4 +29,5 @@ public class BrowserTest {
 
     }
 }
+
 
